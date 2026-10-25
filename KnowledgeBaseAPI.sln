@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeBaseAPI", "KnowledgeBaseAPI\KnowledgeBaseAPI.csproj", "{29756DA2-E3AC-4271-8C21-E2163F9057F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeBaseAPI.Application", "KnowledgeBaseAPI.Application\KnowledgeBaseAPI.Application.csproj", "{06A0EE7A-62BB-4026-A88C-D6C6F14FC273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeBaseAPI.Domain", "KnowledgeBaseAPI.Domain\KnowledgeBaseAPI.Domain.csproj", "{94265F42-211E-4788-81CF-D9AFCA5F46B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeBaseAPI.Infrastructure", "KnowledgeBaseAPI.Infrastructure\KnowledgeBaseAPI.Infrastructure.csproj", "{FA3B5208-75D6-46B6-95EC-F328081EE90A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeBaseAPI.Test", "KnowledgeBaseAPI.Test\KnowledgeBaseAPI.Test.csproj", "{1CB780C6-725C-4B65-B8EE-481376DB9110}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29756DA2-E3AC-4271-8C21-E2163F9057F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29756DA2-E3AC-4271-8C21-E2163F9057F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29756DA2-E3AC-4271-8C21-E2163F9057F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29756DA2-E3AC-4271-8C21-E2163F9057F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A0EE7A-62BB-4026-A88C-D6C6F14FC273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A0EE7A-62BB-4026-A88C-D6C6F14FC273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A0EE7A-62BB-4026-A88C-D6C6F14FC273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A0EE7A-62BB-4026-A88C-D6C6F14FC273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94265F42-211E-4788-81CF-D9AFCA5F46B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94265F42-211E-4788-81CF-D9AFCA5F46B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94265F42-211E-4788-81CF-D9AFCA5F46B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94265F42-211E-4788-81CF-D9AFCA5F46B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3B5208-75D6-46B6-95EC-F328081EE90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3B5208-75D6-46B6-95EC-F328081EE90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3B5208-75D6-46B6-95EC-F328081EE90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3B5208-75D6-46B6-95EC-F328081EE90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB780C6-725C-4B65-B8EE-481376DB9110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB780C6-725C-4B65-B8EE-481376DB9110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB780C6-725C-4B65-B8EE-481376DB9110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB780C6-725C-4B65-B8EE-481376DB9110}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C20F4ED3-66E3-4B1D-AEF6-4AFC14D17663}
+	EndGlobalSection
+EndGlobal
