@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-// ...existing usings
+using KnowledgeBaseAPI.Infrastructure.TextExtraction;
 
 
 
@@ -74,6 +74,10 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+builder.Services.AddSingleton<ITextExtractor, PdfTextExtractor>();
+builder.Services.AddSingleton<ITextExtractor, DocxTextExtractor>();
+builder.Services.AddSingleton<ITextExtractor, TxtTextExtractor>();
+builder.Services.AddScoped<ITextExtractionService, TextExtractionService>();
 
 builder.Services.AddAuthorization();
 
